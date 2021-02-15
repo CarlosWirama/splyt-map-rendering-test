@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdfBwQ dAawFe"
+  >
+    <div
+      class="sc-gsTCUz kEalrd"
+    >
+      <span
+        class="range-slider__wrap"
+      >
+        <input
+          class="range-slider disabled range-slider--primary"
+          disabled=""
+          max="50"
+          min="1"
+          type="range"
+          value="1"
+        />
+        <div
+          class="range-slider__tooltip range-slider__tooltip--auto range-slider__tooltip--bottom range-slider__tooltip--disabled"
+          style="left: calc(0% + 10px);"
+        >
+          <div
+            class="range-slider__tooltip__label"
+          >
+            1
+          </div>
+          <div
+            class="range-slider__tooltip__arrow"
+          />
+        </div>
+      </span>
+    </div>
+    <div
+      style="width: 100%; height: 100%; margin: 0px; padding: 0px; position: relative;"
+    >
+      <div
+        style="width: 100%; height: 100%; left: 0px; top: 0px; margin: 0px; padding: 0px; position: absolute;"
+      />
+      <div
+        style="width: 50%; height: 50%; left: 50%; top: 50%; margin: 0px; padding: 0px; position: absolute;"
+      >
+        <div
+          style="width: 100%; height: 100%; left: 0px; top: 0px; margin: 0px; padding: 0px; position: absolute;"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

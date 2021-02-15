@@ -77,10 +77,8 @@ function App() {
   }
 
   useEffect(refreshDrivers, []);
-  console.log('index, driver')
 
   return (
-    // Important message from plugin: Always set the container height explicitly
     <Container>
       <SliderContainer>
         <RangeSlider
@@ -98,16 +96,7 @@ function App() {
         defaultCenter={center}
         defaultZoom={zoom}
       >
-        {drivers.map((driver, index) => {
-          console.log(index, driver)
-          return (
-            <Marker
-              key={index}
-              lat={driver.lat}
-              lng={driver.lng}
-            />
-          )
-        })}
+        {drivers.map((driver, index) => <Marker {...driver} key={index} />)}
       </GoogleMapReact>
     </Container>
   );
