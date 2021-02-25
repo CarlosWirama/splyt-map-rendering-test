@@ -9,7 +9,7 @@ export const buildDriverApi = (
   latitude: number,
   longitude: number,
   count: number,
-) => `https://qa-interview-test.qa.splytech.io/api/drivers?latitude=${latitude}&longitude=${longitude}&count=${count}`;
+) => `https://qa-interview-test.splytech.dev/api/drivers?latitude=${latitude}&longitude=${longitude}&count=${count}`;
 
 /**
  * Default center 
